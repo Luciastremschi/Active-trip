@@ -1,0 +1,15 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="48" fill="#F5F5F5"/>
+<g id="Frame 1" clip-path="url(#clip0_0_1)">
+<rect width="1280" height="4200" transform="translate(-563 -4093)" fill="white"/>
+<g id="Footer">
+<rect id="Rectangle 13" x="-563" y="-113" width="1280" height="220" fill="black"/>
+<path id="facebook icon" d="M48 24.146C48 10.8073 37.2581 0 24 0C10.7419 0 0 10.8073 0 24.146C0 36.1976 8.77645 46.1871 20.25 48V31.126H14.1532V24.146H20.25V18.8261C20.25 12.775 23.8306 9.43254 29.3148 9.43254C31.9413 9.43254 34.6877 9.90377 34.6877 9.90377V15.8429H31.6606C28.68 15.8429 27.75 17.7045 27.75 19.6138V24.146H34.4061L33.3416 31.126H27.75V48C39.2235 46.1871 48 36.1976 48 24.146Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1280" height="4200" fill="white" transform="translate(-563 -4093)"/>
+</clipPath>
+</defs>
+</svg>

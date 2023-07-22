@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    width: 1280px;
+    margin: 0;
+}
+
+/* helper classes  */
+
+.font-48 {
+   color: #FFF;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.font-32 {
+   color: #000;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.box {
+   width: 100%;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ------------------- */
+
+/* -------header START------- */
+
+.header__container {
+   width: 100%;
+   height: 94px;
+   background-color: #005B96;
+}
+
+.header__ittems {
+   width: 1200px;
+   height: inherit;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 50px;
+}
+
+.header__list {
+   font-family: Aleo, sans-serif;
+   text-transform: capitalize;
+   font-size: 20px;
+   font-weight: 400;
+   width: 450px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header__nav-elements {
+   list-style: none;
+}
+
+.nav__links {
+   text-decoration: none;
+   color: #FFF;
+   transition: 0.5s ease;
+}
+
+.nav__links:hover {
+   color: #FF0;
+}
+
+/* -------header END------ */
+
+/* -----section one START----- */
+
+#s-one {
+   height: 720px;
+   background-image: url(./assets/rough-horn-2146181_1280.jpg);
+}
+
+.btn-scroll {
+   width: 123px;
+   background-color: transparent;
+   border: none;
+   margin: 18px 578.5px;
+   cursor: pointer;
+}
+
+.btn-scroll__holder{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+div.btn-scroll__holder span {
+   color: #FFF;
+   font-family: 'Josefin Sans';
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 2.8px;
+   text-transform: capitalize;
+}
+
+.btn-scroll__direction {
+   width: 17px;
+   height: 11px;
+} 
+
+.s-one__content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: calc(1280px - (170.17px + 196px));
+   margin-left: 196px;
+   margin-top: 110px;
+}
+
+
+.s-one__image {
+   background: url(./assets/1sb.png);
+   width: 487.832px;
+   height: 450px;
+   background-size: cover;
+   transition: 1s ease;
+}
+
+
+.s-one__image:hover { 
+   background: url(./assets/2sb.png);
+   background-size: cover;
+   width: 461.413px;
+   height: 450px;  
+} 
+
+/* -----section one END------- */
+
+/* ------section two START------ */
+
+#s-two {
+   height: 412px;
+   background: url(./assets/mountain-peaks.jpg) no-repeat;
+   background-size: cover;
+   background-position: 100%;
+   display: grid;
+   grid-template-columns: repeat(6, 180px);
+   grid-template-rows: repeat(3, 90px);
+   padding:33px 14px 71px 76px;
+   gap: 20px;
+   row-gap: 38px;
+}
+
+.name-of-cabins {
+   width: 180px;
+   height: 90px;
+   border-radius: 20px;
+   background: #FF0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   cursor: pointer;
+}
+
+.s-two__title {
+   grid-column: 5 / 7;
+   text-align: end;
+}
+
+.petter__cabin {
+   grid-row: 1 / 4;
+   margin-top: calc(117px - 33px);  /*margin top figma - padding grid*/
+}
+
+.issac__cabin {
+   grid-row: 3 / 4;
+   grid-column: 6 / 7;
+   margin-top: -38px;
+   margin-left: 10px;
+}
+
+/* -----section two END------- */
+
+/* -------section three START------ */
+
+#s-three {
+   width: 100%;
+   height: 800px;
+   display: flex;
+   justify-content: center;
+   color: #FFF;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.s-three__container {
+   background-color: #005B96;
+   width: 800px;
+   display: grid;
+   padding: 76px 0;
+   grid-template-rows: repeat(3, 1fr);
+}
+
+.gridbox {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   
+}
+
+.first-row__img {
+   width: 176px;
+   height: 168px;
+   background: url(./assets/mountain.jpg) no-repeat;
+   background-size: cover;
+   background-position: 50%;
+   margin-left: 92px;
+   box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.first-row__title {
+   font-size: 36px;
+   margin-left: 88px;
+   margin-top: calc(104px - 76px);  /* val margin-top figma - padding top grid  */
+}
+
+.second-row__img {
+   width: 212px;
+   height: 200px;
+   background: url(./assets/cabin-main.jpg);
+   background-size: cover; 
+   background-position: 50%;
+   box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.25);
+   margin-left: 139px;
+   margin-top: 54px;
+}
+
+.second-row__txt {
+   width: 373px;
+   height: 259px;
+   font-size: 24px;
+   margin-left: 52px;
+   margin-top: 44px;
+}
+
+.third-row__img {
+   width: 198px;
+height: 172px;
+background: url(./assets/snowboarding.jpg), lightgray 50% / cover no-repeat;
+box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.25);
+background-size: cover; 
+background-position: 50%;
+margin-left: 68px;
+margin-top: 5px;
+}
+
+.third-row__txt {
+   width: 425px;
+   height: 145px;
+   font-size: 16px;
+   margin-left: 51px;
+   margin-top: 38px;
+}
+
+/* -------section three END----- */
+
+/* ------section four START------- */
+
+#s-four {
+   display: flex;
+   width: 100%;
+   height: 680px;
+   background: url(./assets/OR4CDH0.jpg), no-repeat;
+}
+
+.s-four__img {
+   width: 440px;
+   height: 600px;
+   border: 8px solid  #FF0;
+   background: url(./assets/peak.jpg);
+   background-size: cover; 
+   background-position: 100%;
+   margin-top: 42px;
+   margin-left: 116px;
+   
+}
+
+.s-four__text {
+   width: 536px;
+   height: 454px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-top: 98px;
+   margin-left: 130px;
+}
+
+.s-four__title {
+   height: 69px;
+   color: #000;
+   font-size: 48px;
+   font-weight: 700;
+}
+
+.s-four__paragraph {
+   width: 536px;
+   height: 368px;
+   font-size: 36px;
+   font-weight: 400;
+}
+
+/* -----section four END------ */
+
+/* -------section five START------- */
+
+#s-five {
+   width: 100%;
+   height: 700px;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 10px;
+   background: url(./assets/cabin.jpg);
+   background-size: cover;
+   background-position: 100%;
+}
+
+.s-five__icons {
+   display: flex;
+   height: 48px;
+   margin-left: 40px;
+   width: calc(40px + 120px);
+   justify-content:space-between ;
+}
+
+.s-five__title {
+   align-self: flex-end;
+   width: 516px;
+   height: 39px;
+   font-weight: 700;
+}
+
+/* -----section five END----- */
+
+/* ------section six START------ */
+
+#s-six {
+   width: 100%;
+   height: 600px;
+   background-color: #FF0;
+   padding: 34px 40px 14px 40px;
+}
+
+.s-six__title {
+   text-transform: capitalize;
+   font-size: 48px;
+   font-weight: 400;
+   width: 390px;
+   height: 38px;
+
+}
+
+.availability-table{
+  table-layout: fixed;
+  width: 1200px;
+  height: 480px;
+  margin-top: 34px;
+  border: 6px solid black;
+  border-collapse: collapse;
+}
+ 
+.availability-table td {
+   border: 6px solid black;
+   font-size: 32px;
+   text-align: center;
+   font-weight: 400;
+}
+
+/* ------section six END----- */
+
+/* -----footer START------ */
+
+#footer {
+   width: 100%;
+   height: 220px;
+   display: flex;
+   align-items: center;
+   background-color: #000;
+   color: #FFF;
+   font-family: 'Calibri', sans-serif;
+}
+
+#footer span {
+   width: 360px;
+   height: 33px;
+   margin-left: 22px;
+   font-size: 32px;
+   font-weight: 400;
+}
+
+.footer__media-links{
+   width: 180px;
+   height: 107px;
+   margin-left: 181px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Calibri', sans-serif;
+   font-size: 32px;
+   font-weight: 400;
+}
+
+.social-media__icon {
+   width: inherit;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.footer__snowflake {
+   width: 91.667px;
+   height: 100px;
+   margin-left: 372px;
+}
